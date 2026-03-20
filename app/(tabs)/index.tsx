@@ -68,6 +68,8 @@ export default function Home() {
                   className="w-full h-full"
                   resizeMode="cover"
                 />
+                <View className="absolute inset-0 bg-black/40" />
+
                 <View className="absolute bottom-4 left-4 z-10">
                   <Text className="text-white text-2xl font-bold">
                     {banner.title}
@@ -81,7 +83,6 @@ export default function Home() {
                     </Text>
                   </TouchableOpacity>
                 </View>
-                <View className="absolute inset-0 bg-black/40" />
               </View>
             ))}
           </ScrollView>
@@ -145,6 +146,7 @@ export default function Home() {
 
         {/* news letter cta */}
         <View className="bg-gray-100 p-6 rounded-2xl mb-10 items-center">
+
           <Text className="text-2xl font-bold text-primary text-center">Join the Revolution</Text>
           <Text className="text-secondary text-center mb-4">Subscribe to out newsletter and get 10% off on your first purchase.</Text>
           <TouchableOpacity className="bg-primary w-4/5 py-3 rounded-full items-center">
