@@ -145,6 +145,7 @@ export default function Home() {
 
         {/* news letter cta */}
         <View className="bg-gray-100 p-6 rounded-2xl mb-10 items-center">
+          
           <Text className="text-2xl font-bold text-primary text-center">Join the Revolution</Text>
           <Text className="text-secondary text-center mb-4">Subscribe to out newsletter and get 10% off on your first purchase.</Text>
           <TouchableOpacity className="bg-primary w-4/5 py-3 rounded-full items-center">
